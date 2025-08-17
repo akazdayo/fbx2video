@@ -17,7 +17,7 @@ A Python application that converts FBX animation files to MP4 videos using Blend
 2. Clone this repository
 3. Install dependencies:
 ```bash
-rye sync
+$ rye sync
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ rye sync
 1. Place your FBX animation files in the `animations/` directory
 2. Run the conversion script:
 ```bash
-rye run python src/main.py
+$ rye run python src/main.py
 ```
 3. Converted MP4 videos will be saved in the `output_videos/` directory
 
